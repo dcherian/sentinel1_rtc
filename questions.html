@@ -4,7 +4,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Tutorial structure questions &#8212; Sentinel-1 RTC data workflows with xarray</title>
     
   <!-- Loaded before other Sphinx assets -->
@@ -406,7 +407,7 @@ title="Print to PDF"
                 
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="tutorial-structure-questions">
+  <section class="tex2jax_ignore mathjax_ignore" id="tutorial-structure-questions">
 <h1>Tutorial structure questions<a class="headerlink" href="#tutorial-structure-questions" title="Permalink to this headline">#</a></h1>
 <p>a. intro</p>
 <ol class="simple">
@@ -420,8 +421,8 @@ d. dataset comparison
 e. time series example</p></li>
 <li><p>maybe take this out? feel like its getting long..</p></li>
 </ol>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="dataset-questions">
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="dataset-questions">
 <h1>Dataset questions<a class="headerlink" href="#dataset-questions" title="Permalink to this headline">#</a></h1>
 <p>Place to keep track of questions I’ve encountered while working with the ASF and PC RTC datasets…</p>
 <ol class="simple">
@@ -439,14 +440,14 @@ eg. product ID = 1424 for RTC image from source granule: S1A_IW_SLC__1SDV_202105
 </ul>
 </li>
 </ol>
-<div class="section" id="pc-rtc-imagery">
+<section id="pc-rtc-imagery">
 <h2>PC RTC imagery<a class="headerlink" href="#pc-rtc-imagery" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
 <li><p>radiometric terrain correction performed on GRD images that have already been multilooked, ground-projected</p></li>
 <li><p>methods description <a class="reference external" href="https://planetarycomputer.microsoft.com/dataset/sentinel-1-rtc">here</a></p></li>
 </ul>
-</div>
-<div class="section" id="asf-rtc-imagery">
+</section>
+<section id="asf-rtc-imagery">
 <h2>ASF RTC imagery<a class="headerlink" href="#asf-rtc-imagery" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
 <li><p>because using SLC source imagery, terrain correction performed in slant range, then corrected image is mapped to DEM space</p></li>
@@ -454,9 +455,9 @@ eg. product ID = 1424 for RTC image from source granule: S1A_IW_SLC__1SDV_202105
 <li><p>methods description <a class="reference external" href="https://hyp3-docs.asf.alaska.edu/guides/rtc_product_guide/">here</a></p></li>
 </ul>
 <p>Two different groups within the ASF dataset?</p>
-</div>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="programming-questions">
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="programming-questions">
 <h1>Programming questions<a class="headerlink" href="#programming-questions" title="Permalink to this headline">#</a></h1>
 <ol class="simple">
 <li><p>feel like i’m relying on list comprehension a lot for creating, organizing objects - is there a more direct way to do these tasks?</p></li>
@@ -469,7 +470,7 @@ eg. product ID = 1424 for RTC image from source granule: S1A_IW_SLC__1SDV_202105
 <a class="reference external" href="https://docs.xarray.dev/en/stable/examples/apply_ufunc_vectorize_1d.html">https://docs.xarray.dev/en/stable/examples/apply_ufunc_vectorize_1d.html</a>
 <a class="reference external" href="https://stackoverflow.com/questions/57419541/how-to-use-apply-ufunc-with-numpy-digitize-for-each-image-along-time-dimension-o/57513184#57513184">https://stackoverflow.com/questions/57419541/how-to-use-apply-ufunc-with-numpy-digitize-for-each-image-along-time-dimension-o/57513184#57513184</a>
 <a class="reference external" href="https://github.com/pydata/xarray/issues/2808">https://github.com/pydata/xarray/issues/2808</a></p>
-</div>
+</section>
 
     <script type="text/x-thebe-config">
     {
